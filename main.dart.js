@@ -54479,7 +54479,7 @@ gw3(){return"openid,profile,email,external"}}
 A.Rn.prototype={
 gw1(){return"https://dev-edoauth.pulab.pl/auth/realms/edoapp/.well-known/openid-configuration"},
 gw_(){return"test-flutter-client"},
-gw0(){return"OHTFuqBqyS1rbv6kFxbIz9DbDfWYjSqz"},
+gw0(){return"MexkXu33d0TsuykZu2fb8C48uqgQEhS6"},
 gvZ(){return"edoapp"},
 gw2(){return"https://markownik.github.io/callback.html"},
 gw3(){return"openid,profile,email,external"}}
