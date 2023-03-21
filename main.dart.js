@@ -77667,7 +77667,7 @@ return A.a6($async$li,r)},
 oT(a){return this.Ru(a)},
 Ru(a){var s=0,r=A.a7(t.GU),q,p,o,n,m,l,k,j
 var $async$oT=A.a8(function(b,c){if(b===1)return A.a4(c,r)
-while(true)switch(s){case 0:n=A.OL("POST",A.fq(A.nC().gnH()+"/api/v1/external/test/get_authorizators",0,null))
+while(true)switch(s){case 0:n=A.OL("GET",A.fq(A.nC().gnH()+"/api/v1/external/test/authorizators",0,null))
 m=n.r
 l=t.mT
 k=t.Iq
@@ -77710,7 +77710,7 @@ adu(a,b){var s=0,r=A.a7(t.H),q,p=this,o,n,m,l,k,j,i
 var $async$rW=A.a8(function(c,d){if(c===1)return A.a4(d,r)
 while(true)switch(s){case 0:j=p.x
 if(!j.c.gms()){s=1
-break}o=A.OL("POST",A.fq(A.nC().gnH()+"/api/v1/external/test/authorizator_registration",0,null))
+break}o=A.OL("POST",A.fq(A.nC().gnH()+"/api/v1/external/test/authorizator/register",0,null))
 n=o.r
 m=t.mT
 l=t.Iq
@@ -77734,7 +77734,7 @@ if(!j.c.gms()){s=1
 break}o=p.c
 s=o instanceof A.lU?3:4
 break
-case 3:n=A.OL("GET",A.fq(A.nC().gnH()+"/api/v1/external/test/operation_status",0,null))
+case 3:n=A.OL("GET",A.fq(A.nC().gnH()+"/api/v1/external/test/operation/status",0,null))
 m=n.r
 l=t.mT
 k=t.Iq
@@ -77760,7 +77760,7 @@ var $async$rX=A.a8(function(d,e){if(d===1)return A.a4(e,r)
 while(true)switch(s){case 0:j=p.x
 if(!j.c.gms()){s=1
 break}if(!j.c.gms()){s=1
-break}o=A.OL("POST",A.fq(A.nC().gnH()+"/api/v1/external/test/authorizator_operation",0,null))
+break}o=A.OL("POST",A.fq(A.nC().gnH()+"/api/v1/external/test/operation/authorize",0,null))
 n=o.r
 m=t.mT
 l=t.Iq
